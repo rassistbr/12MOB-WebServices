@@ -81,7 +81,7 @@ public class LoginActivity extends AppCompatActivity {
             try{
                 URL url = new URL(strings[0]);
                 JSONObject usuario = new JSONObject();
-                usuario.put("nomeUsuario",usuario);
+                usuario.put("usuario",nomeUsuario);
 
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
